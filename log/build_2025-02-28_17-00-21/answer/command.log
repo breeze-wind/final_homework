@@ -1,0 +1,2 @@
+Invoking command in '/home/sfx233/final_homework/build/answer': /usr/bin/cmake /home/sfx233/final_homework/src/answer -DCMAKE_INSTALL_PREFIX=/home/sfx233/final_homework/install/answer
+Invoked command in '/home/sfx233/final_homework/build/answer' returned '1': /usr/bin/cmake /home/sfx233/final_homework/src/answer -DCMAKE_INSTALL_PREFIX=/home/sfx233/final_homework/install/answer
