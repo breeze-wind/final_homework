@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>map_processing</name>
+  <version>1.0.0</version>
+  <description>战场地图解析核心模块</description>
+
+  <maintainer email="3792287393@qq.com">YourName</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>cv_bridge</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>OpenCV</depend>
+
+  <!-- 如果使用自定义消息类型 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+</package>
+

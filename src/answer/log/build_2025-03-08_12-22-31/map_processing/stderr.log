@@ -1,0 +1,12 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  Could not find a configuration file for package "OpenCV" that exactly
+  matches requested version "4.5".
+
+  The following configuration files were considered but not accepted:
+
+    /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake, version: 4.12.0
+    /usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+    /lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake, version: 4.5.4
+
+
+[0m

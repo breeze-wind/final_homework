@@ -1,0 +1,2 @@
+Invoking command in '/home/sfx233/final_homework/src/answer/build/map_processing': /usr/bin/cmake /home/sfx233/final_homework/src/answer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sfx233/final_homework/src/answer/install/map_processing
+Invoked command in '/home/sfx233/final_homework/src/answer/build/map_processing' returned '1': /usr/bin/cmake /home/sfx233/final_homework/src/answer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sfx233/final_homework/src/answer/install/map_processing
