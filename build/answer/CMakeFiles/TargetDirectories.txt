@@ -1,6 +1,0 @@
-/home/sfx233/final_homework/build/answer/CMakeFiles/uninstall.dir
-/home/sfx233/final_homework/build/answer/CMakeFiles/answer_uninstall.dir
-/home/sfx233/final_homework/build/answer/CMakeFiles/answer.dir
-/home/sfx233/final_homework/build/answer/CMakeFiles/test.dir
-/home/sfx233/final_homework/build/answer/CMakeFiles/edit_cache.dir
-/home/sfx233/final_homework/build/answer/CMakeFiles/rebuild_cache.dir
