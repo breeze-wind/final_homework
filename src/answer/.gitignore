@@ -1,0 +1,120 @@
+# ------------------------
+# ROS 2 核心排除项
+# ------------------------
+build/               # Colcon 构建目录
+install/             # 安装目录
+log/                 # 系统日志
+*.workspace          # VSCode ROS 工作区文件
+
+# ------------------------
+# 编译生成文件
+# ------------------------
+*.o
+*.a
+*.so
+*.so.*
+*.mod
+*.slo
+*.lo
+*.ko
+*.obj
+*.ilk
+*.pdb
+*.dll
+*.exe
+*.bin
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+*.swo
+*~                   # 编辑器临时文件
+
+# ------------------------
+# CMake 相关
+# ------------------------
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.ninja
+.ninja_deps
+.ninja_log
+
+# ------------------------
+# IDE 配置
+# ------------------------
+.vscode/             # VSCode 配置
+.idea/               # JetBrains IDE
+*.iml
+cppcheck-result.xml  # 代码分析报告
+.xcuserdata/         # Xcode 用户数据
+
+# ------------------------
+# 依赖管理
+# ------------------------
+vcpkg_installed/     # vcpkg 安装内容
+conanbuild/
+conaninfo.txt
+conanbuildinfo.txt
+
+# ------------------------
+# ROS 消息生成文件
+# ------------------------
+msg/*.msg.gen.cpp
+srv/*.srv.gen.cpp
+action/*.action.gen.cpp
+
+# ------------------------
+# 系统与缓存文件
+# ------------------------
+.DS_Store           # Mac 系统文件
+Thumbs.db           # Windows 缩略图
+*.un~               # 备份文件
+*.autosave
+
+# ------------------------
+# 调试产物
+# ------------------------
+core                # UNIX core dump
+*.stackdump         # Windows 崩溃文件
+*.pyc               # Python 字节码 (如果混合使用)
+
+# ------------------------
+# 构建缓存加速
+# ------------------------
+.cache/
+.ccache/
+
+# ------------------------
+# ROS 2 package.xml 处理
+# ------------------------
+**/autom4te.cache
+**/aclocal.m4
+**/configure
+**/depcomp
+**/install-sh
+**/missing
+**/mkinstalldirs
+
+# ------------------------
+# 可选文档生成排除项
+# ------------------------
+docs/_build/        # Sphinx 构建输出
+doxygen/            # Doxygen 生成文档
+
+# ------------------------
+# 硬件烧录文件 
+# ------------------------
+*.bin               # STM32 固件二进制
+*.hex               # Arduino HEX 文件
+*.uf2               # Raspberry Pi Pico 镜像
+
+# ------------------------
+# ROS bag文件 (可选)
+# ------------------------
+*.db3               # ROS 2 bag数据库
+

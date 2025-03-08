@@ -29,6 +29,7 @@ add_executable(map_parser
         ${CMAKE_SOURCE_DIR}/src/${PROJECT_NAME}/src/main.cpp
         # 如果实现拆分了头文件
         ${CMAKE_SOURCE_DIR}/include/${PROJECT_NAME}/map_structure.hpp
+        src/navigation/navigation_node.cpp
 )
 
 # 链接依赖项
